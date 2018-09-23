@@ -1,0 +1,3 @@
+[submodule "mmvece"]
+	path = mmvece
+	url = https://github.com/dewv/mmvece.git
