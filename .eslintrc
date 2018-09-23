@@ -1,0 +1,30 @@
+{
+    "extends": "eslint:recommended",
+    "rules": {
+        "indent": ["warn", 4],
+        "no-else-return": "warn",
+        "semi": ["warn", "always"],
+        "space-unary-ops": "error",
+        "eqeqeq": ["error", "always"],
+        "no-cond-assign": "error",
+
+        #begin node.js rules 
+        "callback-return": "error",
+        "global-require": "error",
+        "handle-callback-err": "error",
+        "no-mixed-requires": "error",
+        "no-new-require": "error",
+        "no-path-concat": "error",
+        "no-process-env": "error",
+        "no-restricted-modules": "error",
+        "no-sync": "error",
+        "no-process-env": "off"
+        # end node.js rules
+    },
+    "env": {
+        "browser": true,
+        "node": true,
+        "mocha": true,
+        "jquery": true
+    },
+}

@@ -1,0 +1,50 @@
+{
+  "name": "githubPomodoroApp",
+  "version": "0.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dewv/githubPomodoroApp.git"
+  },
+  "scripts": {
+    "preinstall": ". ~/.nvm/nvm.sh; nvm i v8",
+    "postinstall": "git submodule add https://github.com/dewv/mmvece.git; exit 0",
+    "prestart": "if [ `pgrep mysqld | wc -l` -le 0 ]; then echo 'Cannot start because MySQL is not running.' && exit 1; fi",
+    "start": "node ./bin/www",
+    "stop": "pkill -SIGTERM githubPomodoroApp; exit 0",
+    "restart": "exit 0; # restart script is disabled. Cannot preserve command line args from npm start.",
+    "docs": "rm -r docs 2> /dev/null && ./node_modules/.bin/jsdoc -c ./jsdoc.conf -d docs -r .",
+    "coverage": "istanbul cover _mocha -- --recursive; exit 0;",
+    "test": "./node_modules/istanbul/lib/cli.js cover ./node_modules/.bin/_mocha -- --recursive",
+    "citest": "mocha --recursive",
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls",
+    "changeServiceLevel": "pkill -SIGUSR1 githubPomodoroApp"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "cookie-parser": "~1.4.3",
+    "coveralls": "^3.0.0",
+    "debug": "^4.0.1",
+    "dotenv": "^4.0.0",
+    "ejs": "~2.5.7",
+    "express": "^4.16.3",
+    "express-myconnection": "^1.0.4",
+    "express-mysql-session": "^1.2.3",
+    "express-session": "^1.15.6",
+    "http-errors": "~1.6.2",
+    "http-status-codes": "^1.1.6",
+    "istanbul": "^0.4.5",
+    "it-each": "^0.3.1",
+    "jsdoc": "^3.4.3",
+    "ldapjs": "^1.0.2",
+    "mocha": "^5.2.0",
+    "mock-express-request": "^0.2.0",
+    "mock-express-response": "^0.2.0",
+    "morgan": "^1.9.1",
+    "mysql": "^2.12.0",
+    "serve-favicon": "^2.5.0",
+    "should": "^11.2.0",
+    "supertest": "^3.0.0"
+  }
+}

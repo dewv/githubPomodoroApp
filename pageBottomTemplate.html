@@ -1,0 +1,21 @@
+<% if (authenticated) { %>
+        <hr>
+        <form method="post" action="/authentication?_method=DELETE" style="display: inline;">
+            <a href="/" title="Home"><span class="fa fa-home fa-lg" style="color:black;"></span></a>
+            <button type="submit" title="Sign out" style="background: none; border: none; cursor: pointer;">
+                <span class="fa fa-sign-out fa-lg"></span>
+            </button>
+        </form>
+<% } %>
+
+<% if (process.env.NODE_ENV !== 'production') { %>
+        <div style="margin-top: 50px;">
+            <a href="https://validator.w3.org/check?uri=referer" target="_blank">
+                <img src="/images/valid-html5.png" alt="Valid HTML5!"></a>
+            <a href="https://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+                <img src="/images/css_validation.png" alt="Valid CSS!"></a>
+        </div>
+<% } %>
+
+    </body>
+</html>
