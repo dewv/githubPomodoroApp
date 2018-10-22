@@ -6,14 +6,14 @@
 
 Review the list below and enter "Yes" or "No" to indicate which categories have acceptable levels of risk.
 
-| Risk category | Is level of risk acceptable? |
+| Risk category | Is this a significant risk |
 | ---- | ---- |
 | investing too many or too few resources | Yes |
 | missing success-critical stakeholders      | No |
 | missing win conditions      | No |
 | conflicting win conditions      | No |
 | too much or too little quality assurance work      | No |
-| too much or too little requirements definition      | Yes |
+| too much or too little requirements definition      | No |
 | too much or too little design definition      | Yes |
 | too much or too little implementation work      | Yes |
 | too much or too little deployment planning      | Yes |
@@ -34,5 +34,5 @@ The most critical risk(s) are the first appearance(s) of "No" in the table above
 
 | Date | Mitigation plans |
 | ---- | ---------------- |
-|      |                  |
+| 10.19.18 | Assign staff to improve the "too few" resources risk|
 
