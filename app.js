@@ -1,13 +1,10 @@
 "use strict";
 
-// Load MVC controllers
-// const svc1Controller = require("./services/svc1/svc1Controller");
+const router = require("express").Router();
 
-let controllers = [
-    // svc1Controller
-];
+// const Pomodoro = require("./services/pomodoro/Pomodoro");
+// router.use(Pomodoro.controller.baseUrl, Pomodoro.controller.router);
 
-// Pass controllers to mmvece setup
-let app = require("./mmvece/mmvece")(controllers);
+let app = require("./mmvece/mmvece")(router);
 
 module.exports = app;
