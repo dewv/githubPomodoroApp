@@ -14,10 +14,10 @@ Review the list below and enter "Yes" or "No" to indicate which categories have 
 | conflicting win conditions      | No |
 | too much or too little quality assurance work      | No |
 | too much or too little requirements definition      | No |
-| too much or too little design definition      | Yes |
+| too much or too little design definition      | No |
 | too much or too little implementation work      | Yes |
 | too much or too little deployment planning      | Yes |
-| deploying too late or too soon      | No |
+| deploying too late or too soon      | Yes |
 
 ## Risk mitigation
 
@@ -34,5 +34,5 @@ The most critical risk(s) are the first appearance(s) of "No" in the table above
 
 | Date | Mitigation plans |
 | ---- | ---------------- |
-| 10.19.18 | Assign staff to improve the "too few" resources risk|
+| 10.26.18 | Continue trying to assign staff to improve the "too few" resources risk|
 
