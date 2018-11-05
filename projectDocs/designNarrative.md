@@ -31,6 +31,8 @@ This is the "list all" URL. This will work as usual, except that the user can li
 
 ### `/pomodoro/new`
 
+This is the "enterNewData" URL. 
+
 #### Controller
 
 Call model's `markAbandoned`.
@@ -68,7 +70,7 @@ Unlike most RESTful services, there is no id number/parameter as part of the edi
 
 #### Views
 
-The edit form already exists in some form; it was created in an outdate repo. TBD: where is this file?
+The edit form already exists in some form; it was created in an outdate repo. The Views files can be found in this [archived repo](https://github.com/dewv/github-pomodoro/tree/creatingViewsforPomodoro/views). 
 
 During the 25 minute length of the pomodoro, the form shows a countdown timer, and a "Cancel pomodoro" button. When the timer expires, a 5 minute break timer begins counting down, the cancel button is hidden, and a "Complete pomodoro" button is shown. When the 5 minute timer expires, the complete button is hidden, and a "Start new pomodoro for this issue" link to `/pomodoro/new` appears. TBD: need to somehow send identification of issue, in place of GitHub referrer info.
 
