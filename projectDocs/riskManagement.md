@@ -34,5 +34,5 @@ The most critical risk(s) are the first appearance(s) of "No" in the table above
 
 | Date | Mitigation plans |
 | ---- | ---------------- |
-| 10.26.18 | Continue trying to assign staff to improve the "too few" resources risk|
+| 11.2.18 | Get at least 2 workers on task this week|
 
