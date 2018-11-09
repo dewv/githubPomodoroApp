@@ -12,7 +12,7 @@ Review the list below and enter "Yes" or "No" to indicate which categories have 
 | missing success-critical stakeholders      | No |
 | missing win conditions      | No |
 | conflicting win conditions      | No |
-| too much or too little quality assurance work      | No |
+| too much or too little quality assurance work      | Yes |
 | too much or too little requirements definition      | No |
 | too much or too little design definition      | No |
 | too much or too little implementation work      | Yes |
@@ -34,5 +34,6 @@ The most critical risk(s) are the first appearance(s) of "No" in the table above
 
 | Date | Mitigation plans |
 | ---- | ---------------- |
-| 11.2.18 | Get at least 2 workers on task this week|
+| 11.9.18 | Continue updating designNarrative.md |
+| 11.9.18 | Implement Project board for more clear explaination |
 
