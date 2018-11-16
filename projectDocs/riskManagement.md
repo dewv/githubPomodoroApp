@@ -34,6 +34,4 @@ The most critical risk(s) are the first appearance(s) of "No" in the table above
 
 | Date | Mitigation plans |
 | ---- | ---------------- |
-| 11.9.18 | Continue updating designNarrative.md |
-| 11.9.18 | Implement Project board for more clear explaination|
-
+| 11.15.18 | Work on Project Cards|
