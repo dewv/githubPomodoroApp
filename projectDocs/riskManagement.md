@@ -34,4 +34,5 @@ The most critical risk(s) are the first appearance(s) of "No" in the table above
 
 | Date | Mitigation plans |
 | ---- | ---------------- |
-| 11.15.18 | Work on Project Cards|
+| 11.26.18 | Continue to get more work assigned (1 currently assigned)|
+| 11.26.18 | Continue on project cards | 
