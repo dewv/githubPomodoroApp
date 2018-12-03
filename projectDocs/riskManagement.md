@@ -8,7 +8,7 @@ Review the list below and enter "Yes" or "No" to indicate which categories have 
 
 | Risk category | Is this a significant risk |
 | ---- | ---- |
-| investing too many or too few resources | Yes |
+| investing too many or too few resources | No |
 | missing success-critical stakeholders      | No |
 | missing win conditions      | No |
 | conflicting win conditions      | No |
@@ -34,5 +34,4 @@ The most critical risk(s) are the first appearance(s) of "No" in the table above
 
 | Date | Mitigation plans |
 | ---- | ---------------- |
-| 11.26.18 | Continue to get more work assigned (1 currently assigned)|
-| 11.26.18 | Continue on project cards | 
+| 12.3.18 | Work on end of semester info, making sure project information is ready for next manager|
