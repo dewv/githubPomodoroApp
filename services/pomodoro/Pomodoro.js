@@ -40,6 +40,9 @@ class Pomodoro extends Model {
     // static whyNotList(context, callback) {
     //     callback(["Because I said so.", "Also, I hate you."]);
     // }
+    whyNotDelete() {
+        return ["This operation is not supported."];
+    }
 }
 
 Pomodoro.dbBinding = {
